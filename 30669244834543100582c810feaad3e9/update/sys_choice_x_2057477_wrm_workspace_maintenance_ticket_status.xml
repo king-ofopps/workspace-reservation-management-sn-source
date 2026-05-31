@@ -31,10 +31,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c59d20c08351cf500582c810feaad36d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-31 19:50:01</sys_updated_on>
-            <value/>
+            <sys_updated_on>2026-05-31 20:37:36</sys_updated_on>
+            <value>closed</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -51,10 +51,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>ef8dac808351cf500582c810feaad3cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-05-31 19:49:55</sys_updated_on>
-            <value/>
+            <sys_updated_on>2026-05-31 20:37:42</sys_updated_on>
+            <value>open</value>
         </sys_choice>
     </sys_choice>
 </record_update>
