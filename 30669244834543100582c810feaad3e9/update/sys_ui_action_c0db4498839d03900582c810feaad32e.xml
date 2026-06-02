@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name>CLaim</action_name>
+        <action_name>claim</action_name>
         <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>gs.hasRole('wrm_agent') &amp;&amp; gs.nil(current.assigned_to)</condition>
+        <condition>gs.hasRole('x_2057477_wrm.wrm_agent') &amp;&amp; current.assigned_to.nil()</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_button_v2>false</form_button_v2>
@@ -27,14 +27,14 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>CLaim</name>
+        <name>Claim</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[current.assigned_to = gs.getUserID();
 current.work_notes = 'Claimed by ' + gs.getUserName();
 current.update();
 ]]></script>
-        <show_insert>true</show_insert>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -44,15 +44,15 @@ current.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c0db4498839d03900582c810feaad32e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>CLaim</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Claim</sys_name>
         <sys_overrides/>
         <sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope>
         <sys_update_name>sys_ui_action_c0db4498839d03900582c810feaad32e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-01 12:02:35</sys_updated_on>
+        <sys_updated_on>2026-06-01 19:45:35</sys_updated_on>
         <table>x_2057477_wrm_reservation_tracker</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
