@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a21bd328838947100582c810feaad385" extends="task" label="Workspace Options" max_length="40" name="x_2057477_wrm_workspace_options" type="collection">
+        <element choice="1" label="Workspace type" max_length="40" name="workspace_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Focus Room" value="focus_room"/>
+                <element inactive_on_update="false" label="Hot Desk" value="hot_desk"/>
+                <element inactive_on_update="false" label="Collaboration Space" value="collaboration_space"/>
+                <element inactive_on_update="false" label="Meeting Room" value="meeting_room"/>
+            </choice>
+        </element>
+        <element label="Image" max_length="40" name="image" type="user_image"/>
+        <element label="Workspace description" max_length="4000" name="workspace_description" type="string"/>
+        <element label="Workspace Name" max_length="3000" name="workspace_name" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Decommissioned" value="decommissioned"/>
+                <element inactive_on_update="false" label="Under Maintenance" value="under maintenance"/>
+                <element inactive_on_update="false" label="Available" value="available"/>
+                <element inactive_on_update="false" label="Unavailable" value="unavailable"/>
+            </choice>
+        </element>
+        <element label="Max Occupancy" max_length="40" name="max_occupancy" type="integer"/>
+    </element>
+</database>

@@ -5,7 +5,7 @@
         <description>access to the Workspace&#13;
 Maintenance table and modules only.</description>
         <elevated_privilege>false</elevated_privilege>
-        <federated_id/>
+        <federated_id>bQlWKC2BhKT8NfNuo4lBMV+1zYJksleQieKX9I7Iu/Y=</federated_id>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_2057477_wrm.link</name>

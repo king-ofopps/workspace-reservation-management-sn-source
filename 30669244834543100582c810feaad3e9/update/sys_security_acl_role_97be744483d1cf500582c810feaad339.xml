@@ -9,7 +9,7 @@
         <sys_package display_value="Workspace reservation Management" source="x_2057477_wrm">30669244834543100582c810feaad3e9</sys_package>
         <sys_policy/>
         <sys_scope display_value="Workspace reservation Management">30669244834543100582c810feaad3e9</sys_scope>
-        <sys_security_acl display_value="">80bef04483d1cf500582c810feaad316</sys_security_acl>
+        <sys_security_acl display_value="x_2057477_wrm_workspace_maintenance">80bef04483d1cf500582c810feaad316</sys_security_acl>
         <sys_update_name>sys_security_acl_role_97be744483d1cf500582c810feaad339</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-05-31 21:05:29</sys_updated_on>
