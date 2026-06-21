@@ -41,7 +41,7 @@
         <update_guid_history>87e5d8f8a5418710003bd34efb75b5da:-925861563</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_2057477_wrm_reservation_tracker.x_2057477_wrm.reservation_tracker_user">6506903c834187100582c810feaad393</sys_audit_delete>
+        <sys_audit_delete display_value="">6506903c834187100582c810feaad393</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-05-21 15:46:45</sys_created_on>

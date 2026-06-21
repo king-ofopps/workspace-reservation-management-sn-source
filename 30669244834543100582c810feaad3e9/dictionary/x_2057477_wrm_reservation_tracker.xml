@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="1316943c834187100582c810feaad3fd" extends="task" label="Reservation Tracker" max_length="40" name="x_2057477_wrm_reservation_tracker" type="collection">
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Reserved For" max_length="32" name="reserved_for" reference="sys_user" type="reference"/>
+        <element label="Request Number" max_length="32" name="request_number" reference="sc_req_item" type="reference"/>
+        <element label="Additional Notes" max_length="1000" name="additional_notes" type="string"/>
         <element label="Workspace" max_length="32" name="workspace" reference="x_2057477_wrm_workspace_options" type="reference"/>
         <element choice="1" label="Reservation Status" max_length="40" name="reservation_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="No-Show" value="no-show"/>
-                <element inactive_on_update="false" label="Pending Check-in" value="pending check-in"/>
-                <element inactive_on_update="false" label="Checked-Out" value="checked-out"/>
                 <element inactive_on_update="false" label="Checked-In" value="checked-in"/>
+                <element inactive_on_update="false" label="No-Show" value="no-show"/>
+                <element inactive_on_update="false" label="Checked-Out" value="checked-out"/>
+                <element inactive_on_update="false" label="Pending Check-in" value="pending check-in"/>
                 <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
             </choice>
         </element>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
-        <element label="Additional Notes" max_length="1000" name="additional_notes" type="string"/>
-        <element label="Request Number" max_length="32" name="request_number" reference="sc_req_item" type="reference"/>
-        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
-        <element label="Reserved For" max_length="32" name="reserved_for" reference="sys_user" type="reference"/>
     </element>
 </database>
